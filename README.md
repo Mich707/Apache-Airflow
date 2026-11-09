@@ -15,10 +15,11 @@ Apache Airflow es una plataforma de código abierto diseñada para programar, or
   * `BashOperator`: Ejecuta comandos de shell en el sistema operativo.
   * `PythonOperator`: Ejecuta funciones personalizadas de Python.
 * **XComs (Cross-Communications):** Mecanismo nativo de Airflow que permite a las tareas compartir pequeñas cantidades de datos entre sí durante la ejecución.
+* **Pipeline (Pipeline de Datos):** Es la secuencia automatizada de pasos (extracción, transformación, validación y carga) por la que viajan los datos desde sus fuentes de origen hasta su destino final.
 
 ---
 
-## ⚙️ Descripción del Script (`mi_primer_dag.py`)
+## Descripción del Script (`mi_primer_dag.py`)
 
 El flujo ETL desarrollado simula la recolección y procesamiento de datos meteorológicos mediante 4 tareas conectadas secuencialmente:
 
@@ -29,7 +30,7 @@ El flujo ETL desarrollado simula la recolección y procesamiento de datos meteor
 
 ---
 
-## 📸 Guía Paso a Paso del Proceso (Evidencia de Ejecución)
+## Guía Paso a Paso del Proceso (Evidencia de Ejecución)
 
 A continuación se detalla el proceso técnico realizado para desplegar y verificar el proyecto:
 
